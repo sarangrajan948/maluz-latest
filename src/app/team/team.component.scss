@@ -1,0 +1,118 @@
+.port-image {
+    width: 100%;
+  }
+  
+  .gallery_product {
+    margin-bottom: 30px;
+  
+  }
+  .gal_img{
+    height: 465px;
+    width: 465px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .img-responsive{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .img-responsive{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .img-responsive {
+      width: 100%;
+      height: 100%;
+    }
+  } 
+  
+  @media only screen and (min-width: 992px) {
+    .img-responsive {
+      width: 100%;
+      height: 100%;
+    }
+  } 
+  
+  @media only screen and (min-width: 1200px) {
+    .img-responsive {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .gallery_product:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 14.5%;
+    text-align: center;
+  }
+  
+  .section-header h3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  .section-header h3::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-header h3::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #C3CC35;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  
+  
+  
+  
