@@ -14,3 +14,26 @@ img{
     background-color: #052501;
    
  }
+ 
+.breadcrumb {
+  background: none;
+  margin: 0;
+  font-weight: 300;
+  padding-left: 0;
+  font-size: 13px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.breadcrumb>.active {
+  color: rgb(255, 255, 255);
+}
+
+.breadcrumb>li+li::before {
+  content: "\203A";
+  color: rgb(255, 253, 253);
+  padding: 0 8px;
+}

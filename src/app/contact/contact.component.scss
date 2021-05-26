@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: auto;
-  
+
 }
 
 #contact {
@@ -38,7 +38,8 @@ body {
   font-weight: 400;
 }
 
-.form-control, textarea {
+.form-control,
+textarea {
   max-width: 400px;
   background-color: rgb(247, 244, 244);
   color: #fff;
@@ -119,7 +120,7 @@ body {
 }
 
 /* Social Media Icons */
-.social-media-list{
+.social-media-list {
   position: relative;
   font-size: 2rem;
   text-align: center;
@@ -134,7 +135,7 @@ body {
 }
 
 .social-media-list li {
-  position: relative; 
+  position: relative;
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -142,8 +143,8 @@ body {
   line-height: 60px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(27,27,27);
-  cursor: pointer; 
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
   transition: all .2s ease-in-out;
 }
 
@@ -162,13 +163,13 @@ body {
 }
 
 .social-media-list li:hover {
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 .social-media-list li:hover:after {
-  opacity: 1;  
+  opacity: 1;
   transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
 }
 
 .social-media-list li:hover a {
@@ -183,27 +184,33 @@ body {
 }
 
 hr {
-  border-color: rgba(230, 95, 95, 0.8); ;
+  border-color: rgba(230, 95, 95, 0.8);
+  ;
 }
 
 /* Begin Media Queries*/
 @media screen and (max-width: 760px) {
- img .direct-contact-container, .form-horizontal {
+
+  img .direct-contact-container,
+  .form-horizontal {
     float: none;
     margin: 10px auto;
     max-width: calc(100% + 400px);
-margin: 0 -200px;
+    margin: 0 -200px;
 
-  }  
+  }
+
   .direct-contact-container {
     margin-top: 60px;
     max-width: 300px;
-  }    
+  }
+
   .social-media-list li {
     height: 60px;
     width: 60px;
     line-height: 60px;
   }
+
   .social-media-list li:after {
     width: 60px;
     height: 60px;
@@ -213,38 +220,46 @@ margin: 0 -200px;
 
 @media screen and (max-width: 569px) {
 
-  .direct-contact-container, .form-wrapper {
+  .direct-contact-container,
+  .form-wrapper {
     float: none;
     margin: 0 auto;
-  }  
-  .form-control, textarea {
+  }
+
+  .form-control,
+  textarea {
     max-width: 340px;
     margin: 0 auto;
   }
 
-  .name, .email, textarea {
+  .name,
+  .email,
+  textarea {
     width: 280px;
-  } 
-  
+  }
+
   .direct-contact-container {
     margin-top: 60px;
     max-width: 280px;
-  }  
+  }
+
   .social-media-list {
     left: 0;
   }
+
   .social-media-list li {
     height: 55px;
     width: 55px;
     line-height: 55px;
     font-size: 2rem;
   }
+
   .social-media-list li:after {
     width: 55px;
     height: 55px;
     line-height: 55px;
   }
-  
+
 }
 
 @media screen and (max-width: 410px) {
@@ -254,13 +269,14 @@ margin: 0 -200px;
 }
 
 .lg-text {
-  font-size:52px;
+  font-size: 52px;
   font-weight: 600;
   text-transform: none;
-  color:#fff;
+  color: #fff;
   text-align: center;
   display: inline;
 }
+
 .image-aboutus-para {
-  color:#fff;
+  color: #fff;
 }
