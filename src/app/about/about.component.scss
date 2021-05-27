@@ -7,7 +7,7 @@ h4 {
   background-color: #b40028;
   color: #fff;
 }
-
+ 
 .site-btn {
   font-size: 14px;
   padding: 13px 30px;
@@ -36,35 +36,54 @@ h4 {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-.image-aboutus-banner {
-  background: linear-gradient(rgba(158, 154, 154, 0.7), rgba(140, 133, 133, 0.7)), url("/assets/abt.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-  padding-top: 130px;
-  padding-bottom: 130px;
+.responsive{
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  background: linear-gradient(rgba(179, 160, 160, 0.7), rgba(107, 105, 105, 0.7));
 }
 
-.image-aboutus-sm-banner {
-  background: linear-gradient(rgba(179, 160, 160, 0.7), rgba(107, 105, 105, 0.7)), url("/assets/abt.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+  
+ 
+// .image-aboutus-banner {
+//   background: linear-gradient(rgba(158, 154, 154, 0.7), rgba(140, 133, 133, 0.7)), url("/assets/abt.webp");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center center;
+//   color: #fff;
+//   padding-top: 130px;
+//   padding-bottom: 130px;
+// }
+
+// .image-aboutus-sm-banner {
+//   background: linear-gradient(rgba(179, 160, 160, 0.7), rgba(107, 105, 105, 0.7)), url("/assets/abt.webp");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center center;
+//   color: #fff;
+//   padding-top: 30px;
+//   padding-bottom: 30px;
+// }
 
 .lg-text {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 52px;
   font-weight: 600;
-  text-transform: none;
   color: #fff;
 }
 
-.image-aboutus-para {
+.image-aboutus-banner p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  // color: #000;
   color: #fff;
 }
 
@@ -119,6 +138,7 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #494949;
+  text-align: justify;
 }
 
 a {
