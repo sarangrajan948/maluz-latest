@@ -36,7 +36,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     EarlylifeComponent,
     UpdatesComponent,
     GalleryAlbumOneComponent,
-    GalleryAlbumTwoComponent
+    GalleryAlbumTwoComponent,
   ],
   imports: [
     BrowserModule,
