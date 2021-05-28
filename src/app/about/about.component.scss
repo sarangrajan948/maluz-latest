@@ -43,8 +43,6 @@ h4 {
   background: linear-gradient(rgba(179, 160, 160, 0.7), rgba(107, 105, 105, 0.7));
 }
 
-  
- 
 // .image-aboutus-banner {
 //   background: linear-gradient(rgba(158, 154, 154, 0.7), rgba(140, 133, 133, 0.7)), url("/assets/abt.webp");
 //   background-repeat: no-repeat;
@@ -163,4 +161,7 @@ a {
   top: 120px;
   left: 80px;
   width: 200px;
+}
+@media screen and (min-width: 401px) and (max-width:914px) {
+  .my-content { display: none; }   /* hide it elsewhere */
 }
