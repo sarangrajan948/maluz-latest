@@ -67,7 +67,7 @@ h4 {
   position: absolute;
   width: auto;
   height: auto;
-  top: 30%;
+  top: 33%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 52px;
@@ -144,7 +144,7 @@ a {
 }
 
 .capital {
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .image-aboutus-img {
@@ -165,3 +165,104 @@ a {
 @media screen and (min-width: 401px) and (max-width:914px) {
   .my-content { display: none; }   /* hide it elsewhere */
 }
+@media screen and(max-width:1200px){
+  .lg-text {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 52px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .image-aboutus-banner p {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    // color: #000;
+    color: #fff;
+  }
+}
+
+@media screen and(max-width:1000px){
+  .lg-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .image-aboutus-banner p {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    // color: #000;
+    color: #fff;
+  }
+}
+
+@media screen and(max-width:860px){
+  .lg-text {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .image-aboutus-banner p {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    // color: #000;
+    color: #fff;
+  }
+}
+
+@media screen and(max-width:793px){
+  .lg-text {
+    display: none;
+  }
+  
+  .image-aboutus-banner p {
+  display: none;
+  }
+}
+
+// @media screen and(max-width:400px){
+//   .lg-text {
+//     position: absolute;
+//     top: 15%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     font-size: 20px;
+//     font-weight: 600;
+//     color: #fff;
+//   }
+  
+//   .image-aboutus-banner p {
+//     position: absolute;
+//     top: 18%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     font-size: 14px;
+//     // color: #000;     
+//     color: #fff;
+//   }
+//   .bread-bar .breadcrumb {
+//     display: none;
+//   }
+// }
+
