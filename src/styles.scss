@@ -1,20 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
-@font-face {
-    font-family: "Acme-Regular";
-    src: url("assets/fonts/Acme-Regular.ttf") format("opentype");
-  }
-img{
-    cursor: pointer;
+img {
+  cursor: pointer;
 }
+
 .carousel-indicators li {
 
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #052501;
-   
- }
- 
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #052501;
+
+}
+
 .breadcrumb {
   background: none;
   margin: 0;

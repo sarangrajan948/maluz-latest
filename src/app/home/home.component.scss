@@ -3,11 +3,7 @@
     padding-bottom: 35px;
     color: #333
   }
-  
-  .section-bg {
-    background: #f7f7f7
-  }
-  
+
   #featured-services p {
     color: #fff
   }
@@ -186,21 +182,6 @@
     background-color: #4bc714
   }
   
-  #myCarousel .carousel-control-next:focus,
-  #myCarousel .carousel-control-next:hover,
-  #myCarousel .carousel-control-prev:focus,
-  #myCarousel .carousel-control-prev:hover {
-    background: red;
-    color: #fff
-  }
-  
-  #myCarousel a.carousel-control-prev {
-    position: absolute;
-    left: 82px;
-    bottom: 10px;
-    top: inherit
-  }
-  
   .special-page .relative {
     text-align: left !important
   }
@@ -215,16 +196,7 @@
   .port-image {
     width: 100%
   }
-  
-  .gallery_product {
-    margin-bottom: 30px
-  }
-  
-  .gal_img {
-    height: 465px;
-    width: 465px
-  }
-  
+
   @media only screen and (max-width:600px) {
     .img-responsive {
       width: 100%;
