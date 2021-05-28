@@ -162,107 +162,77 @@ a {
   left: 80px;
   width: 200px;
 }
-@media screen and (min-width: 401px) and (max-width:914px) {
-  .my-content { display: none; }   /* hide it elsewhere */
-}
-@media screen and(max-width:1200px){
-  .lg-text {
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 52px;
-    font-weight: 600;
-    color: #fff;
-  }
-  
-  .image-aboutus-banner p {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    // color: #000;
-    color: #fff;
-  }
-}
-
-@media screen and(max-width:1000px){
-  .lg-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    font-weight: 600;
-    color: #fff;
-  }
-  
-  .image-aboutus-banner p {
-    position: absolute;
-    top: 36%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 26px;
-    // color: #000;
-    color: #fff;
-  }
-}
-
-@media screen and(max-width:860px){
-  .lg-text {
-    position: absolute;
-    top: 27%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    font-weight: 600;
-    color: #fff;
-  }
-  
-  .image-aboutus-banner p {
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    // color: #000;
-    color: #fff;
-  }
-}
-
-@media screen and(max-width:793px){
-  .lg-text {
+@media screen and (min-width: 401px) and (max-width:1000px) {
+  .my-content { display: none; }  
+    .bread-bar .breadcrumb {
     display: none;
-  }
-  
-  .image-aboutus-banner p {
-  display: none;
-  }
+  } 
+ 
+/* hide it elsewhere */
 }
 
-// @media screen and(max-width:400px){
+// @media screen and(max-width:1200px){
 //   .lg-text {
 //     position: absolute;
-//     top: 15%;
+//     top: 32%;
 //     left: 50%;
 //     transform: translate(-50%, -50%);
-//     font-size: 20px;
+//     font-size: 52px;
 //     font-weight: 600;
 //     color: #fff;
 //   }
   
 //   .image-aboutus-banner p {
 //     position: absolute;
-//     top: 18%;
+//     top: 38%;
 //     left: 50%;
 //     transform: translate(-50%, -50%);
-//     font-size: 14px;
-//     // color: #000;     
+//     font-size: 30px;
+//     // color: #000;
 //     color: #fff;
-//   }
-//   .bread-bar .breadcrumb {
-//     display: none;
 //   }
 // }
 
+// @media screen and(max-width:1000px){
+//   .lg-text {
+//     position: absolute;
+//     top: 80%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     font-size: 48px;
+//     font-weight: 600;
+//     color: #fff;
+//   }
+  
+//   .image-aboutus-banner p {
+//     position: absolute;
+//     top: 86%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     font-size: 26px;
+//     // color: #000;
+//     color: #fff;
+//   }
+// }
+
+// @media screen and(max-width:800px){
+//   .lg-text {
+//     position: absolute;
+//     top: 67%;
+//     left: 50%;
+//     bottom: 59%;
+//     transform: translate(-50%, -50%);
+//     font-size: 40px;
+//     font-weight: 600;
+//     color: #fff;
+//   }
+  
+//   .image-aboutus-banner p {
+//     position: absolute;
+//     top: 65%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     font-size: 20px;
+//     // color: #000;
+//     color: #fff;
+//   }
