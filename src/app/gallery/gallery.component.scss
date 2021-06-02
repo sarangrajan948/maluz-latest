@@ -71,6 +71,11 @@ img {
 
   display: inline;
 }
+@media screen and (min-width: 281px) and (max-width:1000px) {
+  .bread-bar .breadcrumb {
+  display: none;
+} 
+}
 
 .image-aboutus-para {
   color: #fff;

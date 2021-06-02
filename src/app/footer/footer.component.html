@@ -7,11 +7,11 @@
           <div class="col-lg-4 col-md-3 footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a routerLink="/home">Home</a></li>
-              <li><a  href="#/about" >About</a></li>
-              <li><a  href="/#/movies">Movies</a></li>
-              <li><a  href="/#/team">Team</a></li>
-              <li><a  href="/#/contact">Contact Us</a></li>
+              <li><a (click)="pageTitle('Malavika Website') "  href="#/home">Home</a></li>
+              <li><a  (click)="pageTitle('About Malavika') "  href="#/about" >About</a></li>
+              <li><a (click)="pageTitle('Malavika Movies')"  href="/#/movies">Movies</a></li>
+              <li><a (click)="pageTitle('Malavika Team')"  href="/#/team">Team</a></li>
+              <li><a (click)="pageTitle('Contact Malavika')"  href="/#/contact">Contact Us</a></li>
             </ul>
           </div>
   
@@ -21,8 +21,8 @@
               <li><a routerLink="/readmore">Education</a></li>
               <li><a routerLink="/readmore">Awards</a></li>
               <li><a routerLink="/">Early Life</a></li>
-              <li><a href="/#/career">Film Career</a></li>
-              <li><a routerLink="/readmore">Gallery</a></li>
+              <li><a (click)="pageTitle('Malavika Career')" href="/#/career">Film Career</a></li>
+              <li><a (click)="pageTitle('Gallery')" href="#/Gallery">Gallery</a></li>
              
             </ul>
           </div>

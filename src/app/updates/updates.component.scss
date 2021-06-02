@@ -245,3 +245,8 @@
 .image-aboutus-para {
   color: #fff;
 }
+@media screen and (min-width: 281px) and (max-width:1000px) {
+    .bread-bar .breadcrumb {
+    display: none;
+  } 
+}

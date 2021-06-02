@@ -162,13 +162,11 @@ a {
   left: 80px;
   width: 200px;
 }
-@media screen and (min-width: 401px) and (max-width:1000px) {
+@media screen and (min-width: 281px) and (max-width:1000px) {
   .my-content { display: none; }  
     .bread-bar .breadcrumb {
     display: none;
   } 
- 
-/* hide it elsewhere */
 }
 
 // @media screen and(max-width:1200px){
