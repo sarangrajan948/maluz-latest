@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
   name = 'countUp Demo';
   options = {
     useEasing: false,
-    duration: 3
+    duration: 25
   }
 
   update() {
@@ -23,5 +23,4 @@ export class HomeComponent implements OnInit {
     
   }
  
-
 }
